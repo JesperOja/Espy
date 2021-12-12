@@ -1,0 +1,91 @@
+/*font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Viga', sans-serif;*/
+body {
+    display: block;
+    background-color: #140d1f;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+    color: #C2C0C4;
+}
+
+#esittely div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kuvia div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+}
+
+article {
+    display: block;
+    width: 60%;
+    margin: 30px auto;
+    min-width: 350px;
+    background-color: aliceblue;
+    border: thick double #FC2F00;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Viga', sans-serif;
+}
+
+header {
+    color: aliceblue;
+    width: 60%;
+    height: 375px;
+    display: block;
+    background-position-x: center;
+    background-image: url("header.jpg");
+    margin: 0 auto;
+}
+
+div {
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    font-family: 'Staatliches', cursive;
+}
+
+img {
+    margin: 20px;
+}
+
+nav {
+    display: block;
+    color: #C2C0C4;
+    text-align: center;
+}
+
+nav a {
+    color: #C2C0C4;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+figure {
+    margin: auto;
+}
