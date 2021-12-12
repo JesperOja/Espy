@@ -1,0 +1,87 @@
+/*font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Viga', sans-serif;*/
+
+body {
+    margin: 0;
+    background-color: #0A0710;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Viga', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #140d1f;
+    color: #C2C0C4;
+    margin: 0 -1rem;
+    padding: 0 2rem;
+}
+
+main {
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#map {
+    width: 100%;
+    height: 60vh;
+}
+
+#nimi, #navigoi {
+    width: 50%;
+}
+
+#navigoi {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navigoi a {
+    display: block;
+    line-height: 3rem;
+    text-align: center;
+    background-color: #FC2F00;
+    color: black;
+    box-sizing: border-box;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+#osoite, #kaupunki, #lisatiedot {
+    width: 100%;
+    margin: 0.3rem 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+/* leaflet ikonit */
+.punainen-ikoni {
+    background: #ff6324;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+}
+
+.vihrea-ikoni {
+    background: #FFA07A;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+}
